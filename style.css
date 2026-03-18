@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    font-family: system-ui;
+}
+
+a.about{
+
+    text-decoration: none;
+    animation: about 2s linear infinite;
+    position: absolute;
+    padding: 10px;
+    margin: 10px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+}
+
+@keyframes about {
+    
+    0%{
+        color: #000;
+    }
+    10%{
+        color: #001;
+    }
+    20%{
+        color: #002;
+    }
+    30%{
+        color: #003;
+    }
+    40%{
+        color: #004;
+    }
+    50%{
+        color: #005;
+    }
+    60%{   
+        color: #006;
+    }
+    70%{
+        color: #007;
+    }
+    80%{
+        color: #008;
+    }
+    90%{
+        color: #009;
+    }
+    100%{
+
+        color: #fff;
+
+    }
+
+}
+canvas{
+
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: #000;
+}
+.continer{
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+    background-color: #002;
+    color: #fff;
+    border: 5px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.continer input{
+
+    width: 100%;
+    outline: none;
+    border: 1px solid #fff;
+    margin: 2px;
+    padding: 2px;
+    background-color: #002;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.continer input::placeholder {
+    
+    color: #fff;
+    
+}
+
+.continer input[type='button']{
+
+    cursor: pointer;
+
+}
+
+.tasks{
+
+    border: 1px solid #fff;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.task{
+
+    
+    border: 1px solid #fff;
+    margin: 1px;
+    padding: 1px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.task button{
+
+    width: 100%;
+    outline: none;
+    border: 1px solid #fff;
+    margin: 2px;
+    padding: 2px;
+    background-color: #f00;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+
+}
